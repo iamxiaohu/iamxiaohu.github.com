@@ -1,0 +1,121 @@
+/*======================
+    TOP
+========================*/
+#top {
+	float: left;
+	margin-bottom: 1px;
+}
+
+#photo {
+	float: left;
+	margin-right: 1px;
+	width: 238px;
+	height: 217px;
+	border: 0;
+}
+
+#photo img { border: 0; }
+
+#intro {
+	background: url(../images/intro_background.jpg) no-repeat;
+	float: left;
+	margin-left: 1px;
+	height: 217px;
+	width: 700px;
+}
+
+#welcome {
+	float: left;
+	width: 370px;
+	height: 140px;
+	position: relative;
+	left: 25px;
+	top: 30px;
+}
+
+#welcome h1 {
+	color: #127e00;
+	font-size: 22px;
+	margin: 0 0 15px 0;
+	line-height: 1;
+	padding: 0;
+	font-weight: 700;
+	background: 0;
+}
+
+#phone {
+	float: left;
+	width: 150px;
+	height: 40px;
+	position: relative;
+	left: 115px;
+	top: 32px;
+}
+
+#newsletter {
+	float: left;
+	width: 200px;
+	height: 55px;
+	padding: 10px 0 10px 15px;
+	position: relative;
+	left: 102px;
+	top: 52px;
+}
+
+#newsletter span {
+	display: block;
+	margin-bottom: 7px;
+	font-size: 14px;
+	color: #fff;
+}
+
+#newsletter input {
+	width: 120px;
+	margin: 0 2px 0 2px;
+	padding: 3px;
+	font-size: 10px;
+}
+
+#newsletter input.signup {
+	background: url(../images/signup_up_btn.png) no-repeat;
+	margin: 0;
+	border: 0;
+	width: 54px;
+	height: 21px;
+}
+
+#bottom {
+	background: url(../images/home_content_background.gif) repeat-y;
+	float: left;
+	margin-top: 1px;
+}
+
+#testimonials h3, #what-we-offer h3, #recent-events h3 {
+	padding: 10px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+}
+
+#testimonials h3 { background: #2451a0; }
+#what-we-offer h3 { background: #ff8401; }
+#recent-events h3 { background: #2451a0; }
+
+#testimonials {
+	float: left;
+	width: 238px;
+	margin-right: 1px;
+	padding: 0;
+}
+
+#what-we-offer {
+	float: left;
+	width: 460px;
+	margin: 0 1px 0 1px;
+}
+
+#recent-events {
+	float: left;
+	width: 238px;
+	margin-left: 1px;
+}
