@@ -1,326 +1,152 @@
-/*
-Site Name: Nettuts+
-Site URI: http://net.tutsplus.com/
-Description: HTML5 Resume that Includes Schema.org Microdata | Tutorial Demo
-Version: 1.0
-Author: Janet Wagner
-Author URI:  http://www.WebCodePro.net/
-*/
-
-
-/*  Color Reference
----------------------------------------------------
-
-Green: #669933
-Medium Gray: #dcdcdc
-Light Gray: #eee
-
-*/
-
-
-
-/* Default Styles
---------------------------------------------------- */
-
 body {
-	margin: 0px;
-	padding: 0px;
-	background: url("../images/bg_dark_green.png");  
-	background-color: inherit;
-	font-size: 16px; 
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	color: #000;
+	margin: 0;
+	padding: 0;
+	background: url(../images/bg.jpg) repeat;
+	font-size: 16px;
+	font-family: "Microsoft YaHei", sans-serif;
 }
 
-a:link { 
+a {
 	text-decoration: underline;
 	color: #000;
 	font-weight: bold;
 }
 
-a:visited { 
-	text-decoration: underline;
-	color: #000;
-	font-weight: bold;
-}
-
-a:hover { 
-	text-decoration: underline;
+a:hover {
+	text-decoration: none;
 	color: #669933;
 	font-weight: bold;
 }
 
-a:active { 
-	text-decoration: underline;
-	color: #000;
-	font-weight: bold;
-}
-
-#wrapper	{
-	width: 965px;
-	margin: 0 auto;	
+#wrapper {
+	width: 800px;
+	margin: 0 auto;
 }
 
 #content {
-	background-color: #eee;
-	width: 960px;
+	background-color: #ecf0f1;
+	width: 750px;
 	text-align: left;
 	overflow: auto;
 	position: relative;
-	margin: 25px 0px 25px 0px;
-	border: #fff solid 2px;
+	margin: 25px 0 25px 0;
+	border: 2px solid #fff;
 }
 
-.clear	{
-	float: none;
-	clear: both;
-	margin: 20px 0px 20px 0px;
+/*header*/
+header {
+	width: 740px;
+	height: 190px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	border-bottom: 1px dotted #aaa;
 }
 
-
-/* Header
---------------------------------------------------- */
-
-
-#contact-details .header_1 {
+#avatar {
 	float: left;
-	width: 350px;
-	text-align: center;
-	margin: 40px 0px 0px 20px;
+	width: 170px;
+	height: 170px;
+	background: url(../images/bg.jpg);
+	margin: 20px 0 0 20px;
 }
 
-#contact-details .header_1 img {
-	border: #fff solid 4px;
-	background: url("../images/bg_img_dark_green.png"); 
-	padding: 16px;
-	margin: 10px 0px 0px 0px;
+#avatar img {
+	width: 150px;
+	height: 150px;
+	padding: 10px;
 }
 
-#contact-details .header_2 {
+#info {
 	float: left;
-	width: 570px;
-	margin: 40px 0px 0px 10px;
+	width: 520px;
+	margin: 10px;
 }
 
-#contact-details .header_2 a {
-	font-weight: normal;
+#name {
+	margin: 0 0 10px 20px;
+	padding: 0;
+	font-size: 50px;
 }
 
-#contact-details  h1	{
-	margin: 0px 0px 0px 20px;
-	font-size: 52px;
-	font-weight: bold;
-}
-
-#contact-details  h3	{
-	margin: 0px 0px 32px 20px;
-	font-size: 30px;
-	font-weight: bold;
-	font-style: italic;
-}
-
-#contact-details ul.info_1	{
-	list-style: none;
-	margin: 0px 0px 0px -12px;
-	font-size: 18px;
-}
-
-#contact-details ul.info_2	{
-	list-style: none;
-	margin: 0px 0px 15px -12px;
-	font-size: 18px;
-}
-
-#contact-details li.address	{
-    background: url("../images/home.png") no-repeat;
-	background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.phone	{
-    background: url("../images/phone.png") no-repeat;
-	background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.email	{
-    background: url("../images/mail.png") no-repeat;
-	background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.site_url	{
-    background: url("../images/computer.png") no-repeat;
-	background-position: 0px 2px;
-    padding: 0px 0px 12px 40px;
-}
-
-#contact-details li.twitter	{
-    background: url("../images/twitter_sm.png") no-repeat;
-	background-position: 0px 0px;
-    padding: 0px 0px 12px 40px;
-}
-
-
-
-/* Main Content
---------------------------------------------------- */
-
-h2.top	{
-	margin: 0px; 
-	font-size: 22px;
-	font-weight: bold;
-}
-
-h2	{
-	margin: 40px 0px 0px 0px; 
-	font-size: 22px;
-	font-weight: bold;
-}
-
-
-dl	{
-	margin: 0px 50px 0px 0px;
-}
-
-
-dt	{
-	float: left;
-	width: 200px;
+#note {
+	margin: 0 0 10px 20px;
+	padding: 0;
 	font-size: 20px;
-	font-weight: bold;
-	font-style: italic;
-	text-align: right;
 }
 
-dd	{
-	width: 620px; 
-	float: right;
-	margin-right: 20px;
-}
-
-dl#contact 	{
-	margin: 0px;
-}
-
-dt#contact 	{
-	margin: 0px;
-}
-
-dd#contact 	{
-	margin: 0px;
-}
-
-p.bus1	{
-	margin: 0px;
-	font-weight: bold;
-	color: #669933;
-}
-
-p.edu-info	{
-	margin: 10px 0px 0px 0px;
-	font-weight: bold;
-	color: #669933;
-}
-
-p.edu-info a	{
-	color: #000;
-}
-
-p.edu-info a:hover	{
-	color: #669933;
-}
-
-p.time	{
-	margin: 0px;
-}
-
-p.summary	{
-	margin: 10px 0px 0px 0px;
-}
-
-
-#skills ul.list1	{	
+#contact ul {
 	float: left;
+	margin: 0 0 0px 20px;
+	padding: 0;
+	font-size: 18px;
 	list-style: none;
-	margin: 0px 0px 0px -40px;
-	width: 220px;
+	display: inline-block;
 }
 
-#skills ul.list2	{	
-	float: left;
-	list-style: none;
-	margin: 0px 0px 0px 0px;
-	width: 220px;
+#contact ul li {
+	margin: 10px 0 10px 0;
 }
 
-#skills li {
-    background: url("../images/bullet_green.png") no-repeat;
-	background-position: 0px 2px;
-    padding: 0px 0px 0px 25px;
-}
-
-abbr	{
-	border-width: 0px;
-}
-
-
-/* Footer
---------------------------------------------------- */
-
-#footer	{
-	margin: 60px 40px 0px 40px;
-}
-
-#footer	img {
-	border: 0px;
-}
-
-#footer .footer_content	{
+/*section*/
+section {
 	width: 700px;
-	overflow: auto;
-	margin: auto;
-	border: #fff solid 2px;
-	background-color: #dcdcdc;
+	margin: 0 auto;
+	font-size: 18px;
 }
 
-#footer ul.icons_1	{
-	float: left;
-	width: 525px;
-	margin: 15px 10px 10px 15px;
-	padding: 0px;
+h2 {
+	font-size: 25px;
+	background: url(../images/bg.jpg) repeat;
+	margin-top: 20px;
+	padding: 5px 0 5px 10px;
+	border-radius: 5px;
 }
 
-#footer ul.icons_2	{
-	float: right;
-	width: 100px;
-	margin: 10px 20px 10px 10px;
-	padding: 0px;
+#introduce p {
+	padding: 0 10px 0 10px;
+	line-height: 1.6em;
 }
 
-#footer .icons_1 li, #footer .icons_2 li { 
-	margin: 0px 0px 0px 7px; 
-	padding: 0px; 
-	list-style-type: none; 
-	display: inline; 
+#skills ul {
+	margin: 0;
+	display: inline-block;
+	width: 200px;
 }
 
-#footer a	{
-	color: #000;
-}
-
-#footer a:hover	{
-	color: #669933;
-}
-
-#footer	.credits {
-	float: none;
-	clear: both;
-	margin: 10px 0px 20px 0px;
-	font-size: 12px;
+#works div {
+	width: 300px;
+	padding: 20px 20px 0 20px;
+	border-radius: 10px;
+	display: inline-block;
 	text-align: center;
+	font-size: 16px;
 }
 
-#footer	.credits a	{
-	font-weight: normal;
+#works div:hover {
+	background: url(../images/bg.jpg) no-repeat;
+}
+
+#prize ul li {
+	margin: 0 0 10px 0;
+}
+
+.exp-item .exp-title {
+	margin: 0 0 5px 0;
+}
+
+.exp-description {
+	margin: 0 0 10px 0;
+}
+
+#goal ul li {
+	margin: 0 0 10px 0;
+}
+
+#comment ul {
+	margin: 0 0 30px 0;
+}
+
+#comment ul li {
+	display: inline;
+	padding: 0 90px 0 0;
 }
